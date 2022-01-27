@@ -11,7 +11,7 @@ html {
 }
 
 .center {
-  padding-top: 16px;
+  padding: 16px 0;
   text-align: center;
   bottom: 18px;
   position: relative;
@@ -254,7 +254,7 @@ header .mobile {
 }
 
 .content {
-  padding: 30px 0;
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 890px) {
