@@ -63,6 +63,9 @@ header .content {
 header .logo {
   flex: 1;
   font-family: 'Space Mono', monospace;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  letter-spacing: 0.01rem;
 }
 
 header nav ul {
@@ -415,6 +418,11 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 760px) {
+
+  header {
+    height: 85px;
+  }
+
   footer .content {
     font-size: .625rem;
   }
