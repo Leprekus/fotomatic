@@ -254,8 +254,9 @@ header .mobile {
 }
 
 .content {
-  padding-top: 30px;
+  padding-top: 16px;
 }
+
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
@@ -300,7 +301,6 @@ header .mobile {
 }
 
 #filters-section .content {
-  padding: 0 .625rem;
   margin-bottom: 5rem;
 
 }
