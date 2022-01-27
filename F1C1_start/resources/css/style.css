@@ -11,7 +11,10 @@ html {
 }
 
 .center {
+  padding-top: 16px;
   text-align: center;
+  bottom: 18px;
+  position: relative;
 }
 
 .button {
@@ -21,11 +24,16 @@ html {
 }
 
 .image-container {
+  display: flex;
+  align-items: center;
   overflow: hidden;
+
 }
 
 .image-container img {
   display: block;
+  width: 100%;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -227,7 +235,7 @@ header .mobile {
 
 .feature .image-container {
   width: 90%;
-  height: 65%;
+  height: 160px;
   margin: 0 auto;
 }
 
@@ -243,6 +251,10 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+}
+
+.content {
+  padding: 30px 0;
 }
 
 @media only screen and (max-width: 890px) {
@@ -268,6 +280,10 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+  
+  .content-banner {
+    background-color: #d4d5d6;
+  }
 }
 
 /* Filters Section */
@@ -286,6 +302,7 @@ header .mobile {
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+
 }
 
 #filters-section .content h2 {
